@@ -10,9 +10,13 @@ MSeq-CNV can be applied for detecting the recurrent genome-wide CNVs from NGS da
 Run MAIN.m MATLAB script, to call genome-wide deletions and duplications using MSeq-CNV. However, prior to running this script, the input data and a few variables have to be specified in the MATLAB workspace:
 
 -	Input data: the input data should be saved in a MATLAB matrix, named “Info”. Each row of this matrix corresponds to a mate pair, with the four entries:
-1-	Leftmost position of where the first read maps to the reference, 
-2-	Leftmost position of where the next read maps to the reference, 
+
+1-	Leftmost position of where the first read maps to the reference,
+
+2-	Leftmost position of where the next read maps to the reference,
+
 3-	Mate pair insertion size, after mapping the mate pair to the reference genome
+
 4-	Sample number (mate pairs which are generated from the same sample genome, receive an identical number). For example, if six sample genomes are analyzed using MSeq-CNV, samples are given numbers 1, 2, 3, 4, 5 and 6, in order. 
 
 
