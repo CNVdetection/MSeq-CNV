@@ -1,7 +1,9 @@
 # MSeq-CNV
 MSeq-CNV: accurate detection of Copy Number Variation from Multiple Sequencing samples
+
 By: 
 Seyed Amir Malekpour, Hamid Pezeshk and Mehdi Sadeghi
+
 Contact: a.malekpour@ut.ac.ir, pezeshk@khayam.ut.ac.ir, pezeshk@ut.ac.ir, sadeghi@nigeb.ac.ir
 
 MSeq-CNV can be applied for detecting the recurrent genome-wide CNVs from NGS data in the diploid genome of human and other organisms, as well. The input NGS data for the MSeq-CNV are possibly the mate pair reads which are collected from sequencing with multiple platforms, multiple individuals and experimental conditions.
