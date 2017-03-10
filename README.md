@@ -1,5 +1,5 @@
 # MSeq-CNV
-MSeq-CNV: accurate detection of Copy Number Variation from Multiple Sequencing samples
+MSeq-CNV: accurate detection of Copy Number Variation from Sequencing of Multiple samples
 
 By: 
 Seyed Amir Malekpour, Hamid Pezeshk and Mehdi Sadeghi
