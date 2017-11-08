@@ -47,6 +47,7 @@ lambda_initial_estimate <-  13
 T=1000
 Insertion_Size=200
 Read_Length=50
+
 iteration=3
 
 After running MseqCNV.R, genome-wide copy gain and copy loss regions are saved in a matrix named CNVs.
