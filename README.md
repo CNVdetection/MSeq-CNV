@@ -40,24 +40,14 @@ There are variables which are given values in the first line of the MseqCNV.R sc
 
 e.g. 
 Pos_Size <- read.csv("D:\\SampleData.csv")
-
 chromosome_size =5000000
-
 sample_size=40
-
 segment_size=150
-
 lambda_initial_estimate <-  13
-
 T=1000
-
 Insertion_Size=200
-
 Read_Length=50
-
 iteration=3
-
-
 
 After running MseqCNV.R, genome-wide copy gain and copy loss regions are saved in a matrix named CNVs.
 Each row of this matrix represents a different CNV call with its sample number, start position, end position and copy number estimation.
