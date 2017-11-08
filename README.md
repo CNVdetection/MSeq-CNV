@@ -7,7 +7,9 @@ Seyed Amir Malekpour, Hamid Pezeshk and Mehdi Sadeghi
 Contact: a.malekpour@ut.ac.ir, pezeshk@khayam.ut.ac.ir, pezeshk@ut.ac.ir, sadeghi@nigeb.ac.ir
 
 MSeq-CNV can be applied for detecting recurrent genome-wide CNVs from NGS data in the diploid genome of human and other organisms, as well. 
+
 The input NGS data for the MSeq-CNV are possibly the mate pair reads which are collected from sequencing with multiple platforms, multiple individuals and experimental conditions.
+
 MSeq-CNV programs are written in R language. Run MseqCNV.R script, to call genome-wide deletions and duplications using MSeq-CNV. 
 However, prior to running this script, the input data and a few variables have to be specified in the beginning of this script:
 
@@ -15,10 +17,15 @@ However, prior to running this script, the input data and a few variables have t
 Input data: the input data should be saved in a .csv file. Each row of this matrix corresponds to a mate pair, with the four entries:
 
 1- Leftmost position of where the first read maps to the reference,
+
 2- Mate pair insertion size, after mapping the mate pair to the reference genome
+
 3- Mate pair flag which indicates its mapping properties
+
 4- Mate pair mapping quality
+
 5- Read number i.e. 1st or 2nd in a mate pair 
+
 6- Sample number (mate pairs which are generated from the same sample genome, receive an identical number). 
 For example, if six sample genomes are analyzed using MSeq-CNV, samples are given numbers 1, 2, 3, 4, 5 and 6, in order.
 
